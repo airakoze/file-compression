@@ -47,6 +47,6 @@ rle detects the following errors and quits gracefully:
 - Input file does not exist or is otherwise not openable
 - Any errors returned from open(), close(), read(), or write() - use the function perror() to print useful error messages
 
-  Upon encountering any error, print a useful message and exit() with a negative status code.
+Upon encountering any error, print a useful message and exit() with a negative status code.
 
 If no error is encountered then the program should not produce any output to standard output, and should only modify the output file.
