@@ -4,7 +4,7 @@ rle - compress or decompress a file with run-length encoding
 
 # Usage
 
-rle <input file> <output file> <compression length> <mode>
+rle "input file" "output file" "compression length" "mode"
 
 input file: the file to compress/decompress
 
